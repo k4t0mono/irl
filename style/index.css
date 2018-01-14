@@ -3,21 +3,19 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Ubuntu+Mono');
 
 body {
-	/* font-family: 'Anonymous Pro', monospace; */
 	font-family: 'Anonymous Pro', monospace;
 	font-size: 1em;
 	color: #0cf;
 
 	background-color: #1f1b32;
-	/* background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-527219.jpg"); */
 	background-image: url("wallhaven-527219.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	/* padding-bottom: 5rem; */
-	padding-top: 5rem;
+	position: relative;
+	overflow-y: scroll;
 }
 
 p {
@@ -28,6 +26,21 @@ ul {
 	list-style: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 h1, h2, h3 {
 	color: #d7d;
 	font-family: 'Ubuntu Mono', monospace;
@@ -40,16 +53,24 @@ h4, h5, h6 {
 
 nav {
 	background-color: #292b2e;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.85);
+	transition: .75s;
+}
+
+footer {
+	box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.85);
 }
 
 footer ul li {
 	display: inline;
 	margin-left: 0.5rem;
-	/* font-size: 1.5rem; */
+}
+
+.ss {
+	padding-top: 4.5em;
 }
 
 .card {
-	margin-bottom: 5rem;
 	padding: 1rem;
 
 	border: 3px solid #555;
@@ -103,4 +124,8 @@ footer ul li {
 
 #sobre_img {
 	margin-bottom: 1rem;
+}
+
+#curiosidades {
+	 padding-bottom: 4.5em;
 }
