@@ -11,10 +11,14 @@
 
 	<!-- Navegação -->
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar-top">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="navbar-top">
 		<span class="navbar-brand mb-0 h1">IRL</span>
 
-		<div class="collapse navbar-collapse text-align-left">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsable-links">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse text-align-left" id="navbar-collapsable-links">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
 					<a class="nav-link" href="#sobre">Sobre Mim</a>
@@ -48,7 +52,7 @@
 					<div class="card" id="sobre_img">
 						<img src="style/photo_300.jpg" />
 					</div>
-					<div class="card" id="sobre_nome">
+					<div class="card" id="sobre_nome" style="margin-bottom:1em">
 						<h4>Breno Gomes Cardoso</h4>
 						<p>
 							1998-03-29<br />
@@ -57,7 +61,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-8">
+				<div class="col">
 					<div class="card">
 						<h3>Sobre mim</h3>
 						<p>
@@ -84,7 +88,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">Backend</h4>
 						<p>
@@ -95,7 +99,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">Comunicação</h4>
 						<p>
@@ -104,7 +108,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">Ambiente empresarial</h4>
 						<p>
@@ -248,7 +252,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">I <3 <i class="fas fa-terminal"></i></h4>
 						<p>
@@ -260,7 +264,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">Syth Metal Bachiano</h4>
 						<p>
@@ -270,7 +274,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-4">
+				<div class="col">
 					<div class="card">
 						<h4 class="text-center">Worldbuilding</h4>
 						<p>
@@ -287,9 +291,9 @@
 
 	<footer class="footer">
 		<div class="row mx-0">
-			<div class="col-sm-1"></div>
+			<div class="col-md-1"></div>
 
-			<div class="col-sm-7">
+			<div class="col-md-7">
 				<ul class="mb-0">
 					<li>
 						<a href="https://github.com/k4t0mono">
@@ -321,11 +325,9 @@
 				</ul>
 			</div>
 
-			<div class="col">
+			<div class="col" style="padding-bottom:0em">
 				<p>Desenvolvido por Breno Gomes</p>
 			</div>
-
-			<div class="col-sm-1"></div>
 		</div>
 	</footer>
 
